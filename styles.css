@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Open+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Londrina Solid', cursive 100,300,400,900
+
+font-family: 'Open Sans', sans-serif 300,400*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5vh;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Londrina Solid', cursive;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.colors-section{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80vw;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.colors-block-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.color-block{
+    width: 20%;
+    height: 150px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#onyx{
+    background-color: #303633;
+    color: #fff;
+}
+#magic-mint{
+    background-color: #8BE8CB;
+    color: #000;
+}
+
+#pewter-blue{
+    background-color: #7EA2AA;
+    color: #fff;
+}
+
+#cool-grey{
+    background-color: #888DA7;
+    color: #fff;
+}
+
+
+ /* fonts sction */
+.fonts-section{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80vw;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.font-panel-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 150%;
+}
+
+.font-panel-section h3{
+    text-decoration: underline;
+}
+
+h3{
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.londrina-font{
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+#font-100{
+    font-weight: 100;
+}
+#font-300{
+    font-weight: 300;
+}
+#font-400{
+    font-weight: 400;
+}
+#font-900{
+    font-weight: 900;
+}
+
+.opensans-font{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* text styles section */
+
+.text-styles-section{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80vw;
+    height: auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-style-panel{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.text-style-panel h1,h2,p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.text-style{
+    padding-bottom: 30px;
+}
